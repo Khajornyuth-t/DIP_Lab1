@@ -3,7 +3,8 @@
 % Author: Khajornyuth Tonpuban
 % Date: 31 July 2025
 
-clear all;      % Clear all variables
+%clear all;      % Clear all variables
+clearvars;     % Clear variables   
 close all;      % Close all figures
 clc;            % Clear command window
 

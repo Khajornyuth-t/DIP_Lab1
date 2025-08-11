@@ -4,18 +4,20 @@
 % Date: 31 July 2025
 
 %% Section 1: Setup and Clear Environment
-clear all;
+%clear all;
+clearvars;
 close all;
 clc;
 
 % Run setup
 setup;
 
+disp('Setup complete. Starting image processing...');
 %% Section 2: Load and Display Original Image
 % Load image (DSCF0362.jpg)
 % original_img = imread('data/input/DSCF0362.jpg');
 lena_org_img = imread('data/input/lena_color.jpg');
-peppers_org_img = imread('data/input/peppers_color.png');
+peppers_org_img = imread('data/input/peppers.png');
 
 % Display original image
 figure(1);
