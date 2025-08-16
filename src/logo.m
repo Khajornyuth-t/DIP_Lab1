@@ -9,8 +9,8 @@ axis equal;
 axis off;
 
 % Back ground
-set(gca, 'Color', 'blue'); %
-set(gcf, 'Color', 'black');
+set(gca, 'Color', 'black'); % Set axis background color
+set(gcf, 'Color', 'blue'); % Set figure background color
 
 % t parameter
 t = linspace(0, 2*pi, 1000);
@@ -51,7 +51,7 @@ ylim([-20, 20]);
 %title('Gradient Heart - 6 Layers', 'Color', 'white', 'FontSize', 14);
 
 % Save Picture
-saveas(gcf, 'MyLogo.png');
+%saveas(gcf, 'MyLogo.png');
 
 % แสดงสรุปการตั้งค่า
 %fprintf('\n=== การตั้งค่า ===\n');
